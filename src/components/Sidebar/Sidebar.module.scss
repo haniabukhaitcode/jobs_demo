@@ -1,0 +1,57 @@
+@import "../../variables.module.scss";
+.SidebarContainer {
+  position: absolute;
+  background: $white-color;
+  max-height: 100vh;
+  min-height: 100vh;
+  visibility: visible;
+  top: 1px;
+  min-width: 250px;
+  box-shadow: 0px 0px 0px 1px rgb(235, 235, 235);
+}
+
+.SidebarContainer.close {
+  display: none;
+}
+
+.SidebarRow {
+  position: relative;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  z-index: 1;
+  min-height: 100px;
+}
+
+.SidebarCol {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #011f4b;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  min-height: 40px;
+  width: 100%;
+}
+
+.SidebarCol:hover {
+  background: $hover-color;
+  font-size: 20px;
+  font-weight: 500;
+  color: $primary-color;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.SidebarSpan {
+  padding-left: 10px;
+}

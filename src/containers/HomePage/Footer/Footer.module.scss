@@ -1,0 +1,68 @@
+@import "../../../variables.module.scss";
+.sectionFooter {
+  background: $primary-color;
+  color: $white-color;
+}
+.footerContainer {
+  font: 500 16px "Poppins", sans-serif;
+  color: $white-color;
+  padding: 0px;
+  margin-bottom: 5px;
+  padding-block-start: 10px;
+  height: 40px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-top: -10px;
+  list-style: none;
+  flex-grow: 1;
+}
+
+.footerItem {
+  position: relative;
+  justify-items: center;
+  width: 100%;
+}
+
+.footerLink {
+  font: 400 14px "Poppins", sans-serif;
+  color: $white-color;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerList > .footerItem > .footerLink {
+  font: 400 14px "Poppins", sans-serif;
+  color: $white-color;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerList > .footerItem > .footerLink:hover {
+  color: $white-color;
+}
+.footerList > .footerItem:hover .footerLink:before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.followUs {
+  color: white;
+}
+.followUs:hover {
+  color: white;
+}

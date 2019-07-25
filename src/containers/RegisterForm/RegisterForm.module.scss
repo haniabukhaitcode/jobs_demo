@@ -1,0 +1,222 @@
+@import "../../variables.module.scss";
+.sign_info {
+  border: 20px solid #fff;
+  background: #fbfbfd;
+  padding: 80px 50px;
+  -webkit-box-shadow: 0px 50px 100px 0px rgba(12, 0, 46, 0.05);
+  box-shadow: 0px 50px 100px 0px rgba(12, 0, 46, 0.05);
+}
+
+.login_info {
+  font-weight: 400;
+}
+.login_infoText {
+  font-weight: 700;
+}
+
+.sign_info .sign_info_content h2 {
+  font-size: 30px;
+  color: $black-color;
+}
+
+.sign_info .sign_info_content ul li {
+  font-family: 300 16px/34px "Poppins", sans-serif;
+  color: $black-color;
+}
+
+.sign_info .sign_info_content ul li i {
+  color: $black-color;
+  margin-right: 10px;
+}
+
+.sign_info .login-form .text_box {
+  margin-bottom: 25px;
+}
+
+.sign_info .lead-text {
+  font-family: 400 14px/40px "Poppins", sans-serif;
+  color: $black-color;
+  padding-left: 40px;
+}
+
+.sign_info .social_tag li {
+  display: inline-block;
+}
+
+.sign_info .social_tag li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  line-height: 44px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 7px;
+}
+
+.sign_info .social_tag li:first-child a {
+  background: $primary-color;
+}
+
+.sign_info .social_tag li:nth-child(2) a {
+  background: $primary-color;
+}
+
+.sign_info .social_tag li:nth-child(3) a {
+  background: $primary-color;
+}
+
+.sign_info .sign-in-form .btn_three {
+  width: auto;
+  margin-top: 0;
+}
+
+.sign_info .sign-in-form .extra .forgotten-password a {
+  color: $primary-color;
+  font-weight: 400;
+}
+
+.sign_info .sign-in-form .extra .forgotten-password a:hover {
+  color: $black-color;
+}
+
+.sign_btn_transparent {
+  display: inline-block;
+  background: transparent;
+  border-color: $primary-color;
+  color: $primary-color;
+}
+
+.sign_btn_transparent:hover {
+  background: $primary-color;
+  color: #fff;
+}
+
+.btn_three {
+  font-family: 500 14px "Poppins", sans-serif;
+  color: #fff;
+  background: $primary-color;
+  border-radius: 3px;
+  padding: 15px 30px;
+  border: 1px solid $primary-color;
+  margin-top: 50px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn_three:hover {
+  color: $primary-color;
+  background: transparent;
+}
+
+.login-form .text_box .text_c {
+  color: $primary-color;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.login-form .extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font: 300 14px/30px "Poppins", sans-serif;
+  margin-top: 45px;
+}
+
+.login-form .extra .checkbox label {
+  margin-bottom: 0px;
+  color: $primary-color;
+}
+.login-form .extra .checkbox input[type="checkbox"] {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.login-form .extra .checkbox input[type="checkbox"]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border: 1px solid $primary-color;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.login-form .extra .checkbox input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 8px;
+  border: solid $primary-color;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0px;
+  left: 3px;
+}
+
+.login-form .extra .forgotten-password a {
+  color: #677294;
+}
+.text_box input[type="text"],
+.text_box textarea,
+.text_box input[type="password"] {
+  font: 300 15px/60px "Poppins", sans-serif;
+  color: #222d39;
+  height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
+  box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
+  width: 100%;
+  border: 1px solid #fff;
+  padding-left: 30px;
+}
+
+a,
+.btn,
+button {
+  text-decoration: none;
+  outline: none;
+  color: $black-color;
+}
+
+.login-form .btn_three {
+  width: 100%;
+  background: $primary-color;
+  color: #fff;
+  margin-top: 40px;
+}
+.listcontainer li {
+  font: 500 18px "Poppins", sans-serif;
+  padding-top: 12px;
+}
+.listItem {
+  list-style: none;
+  margin-left: -30px;
+  padding-bottom: 12px;
+}
+i {
+  color: $primary-color;
+
+  padding-top: 15px;
+  height: 40px;
+  padding-right: 12px;
+}
+.login_text {
+  font: 500 25px "Poppins", sans-serif;
+  margin-bottom: 30px;
+}

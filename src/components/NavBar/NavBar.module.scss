@@ -1,0 +1,55 @@
+@import "../../variables.module.scss";
+.containerNavbar {
+  position: relative;
+  background: $white-color;
+  box-shadow: 0px 0px 2px 1px rgba(56, 56, 56, 0.178);
+  z-index: 1;
+  top: 0;
+  line-height: 1.5;
+}
+
+.rowNavbar {
+  position: relative;
+}
+.burger {
+  padding: 2px;
+}
+.leftSide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 250px;
+  min-width: 150px;
+  padding: 0px;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 250px;
+  min-width: 150px;
+  padding-right: 10px;
+}
+
+.link {
+  color: $primary-color;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $primary-color;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.containerSideBar {
+  position: fixed;
+  padding: 0px;
+}

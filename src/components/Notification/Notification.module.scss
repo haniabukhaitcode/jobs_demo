@@ -1,0 +1,55 @@
+@import "../../variables.module.scss";
+.notificationContainer {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.notificationContainer:hover {
+  color: #003e9b;
+}
+
+.notificationRow {
+  display: block;
+  position: absolute;
+  background: $white-color;
+  visibility: visible;
+  border-radius: 10px;
+  z-index: 1;
+  width: 280px;
+}
+
+.notificationRow.close {
+  display: none;
+}
+
+.notificationCol {
+  position: relative;
+  visibility: visible;
+  list-style: none;
+}
+
+.notificationCol a {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.notificationCol a:hover {
+  color: $secondary-color;
+}
+.icon {
+  padding-top: 10px;
+  display: block;
+}
+.icon:hover {
+  color: #003e9b;
+}

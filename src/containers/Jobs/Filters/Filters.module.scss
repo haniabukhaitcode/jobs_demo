@@ -1,0 +1,108 @@
+@import "../../../variables.module.scss";
+
+.filterborderbottom {
+  border-bottom: 1px solid #82848846;
+  padding-bottom: 10px;
+}
+
+.imgspan {
+  padding: 0px 10px 5px 10px;
+}
+.filterspan {
+  font-weight: 600;
+}
+
+.searchtopmargin {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.recommendedsection {
+  font-size: 12.5px;
+  padding-bottom: 2px;
+}
+.recommendedsection b a:hover {
+  text-decoration: none;
+}
+
+// .formcontrol {
+//   outline: none;
+//   width: 90%;
+// }
+.formcontrol {
+  outline: none;
+  font-size: 12.5px;
+  height: 30px;
+  padding-left: 5px;
+  width: 80%;
+  border: rgba(128, 128, 128, 0.377) solid 1px;
+  border-right: none;
+  border-radius: 0%;
+}
+
+.countries {
+  background: #011f4be0;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+select.input {
+  padding: 0 12px;
+  line-height: 2;
+}
+
+.select {
+  width: 100%;
+  overflow: visible;
+}
+
+.select:before {
+  background: #fff;
+  bottom: 3px;
+  right: 3px;
+  border-radius: 0 2px 2px 0;
+}
+.select:after {
+  right: 25.5px;
+  margin-top: 14px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid $primary-color;
+  border-width: 0 1px 1px 0;
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 2;
+}
+.select:after,
+.select:before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.select > .input {
+  width: 100%;
+  line-height: 1.5;
+  appearance: none;
+  padding-right: 36px;
+}
+.select > .input:after {
+  width: 100%;
+  line-height: 1.5;
+  appearance: none;
+  padding-right: 36px;
+}
+
+.t-mute {
+  color: #a6afb9;
+}
+
+.m10y {
+  margin-top: 10px !important;
+  margin-top: 10px !important;
+}
+
+.checkboxList {
+  padding-left: 10px;
+}

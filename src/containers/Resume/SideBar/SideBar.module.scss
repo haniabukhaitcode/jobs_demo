@@ -1,0 +1,112 @@
+@import "../../../variables.module.scss";
+
+.whiteBox {
+  margin-top: 100px;
+  position: relative;
+  background: transparent;
+  color: $black-color;
+}
+.sideBarValues {
+  display: block;
+  background: white;
+  border: #5e5959 solid 1px;
+  padding: 20px;
+}
+.profileSideBar {
+  display: block;
+  height: 900px;
+}
+.sidebarTitle {
+  margin: 0;
+  padding: 12px 46px;
+  font: 20px "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.profileStrength {
+  position: relative;
+  height: 114px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+.progressBar {
+  height: 15%;
+  width: 50%;
+  background-image: linear-gradient(to left, $primary-color, #2b344e73);
+  color: white;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.note {
+  font: 14px "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.progressGood {
+  color: $primary-color;
+  width: 100%;
+  text-align: left;
+}
+.progressBad {
+  width: 100%;
+  color: rgb(211, 0, 0);
+  text-align: left;
+}
+
+.progressText {
+  color: black;
+  padding-left: 20px;
+  font: 14px "Poppins", sans-serif;
+}
+.ItemLink {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  color: #999;
+  font: 16px "Poppins", sans-serif;
+}
+.ItemLink:hover {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.resumeLink {
+  font: 600 16px "Poppins", sans-serif;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.resumeLink:hover {
+  text-decoration: none;
+  color: $primary-color;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.upgradeLable {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.upgradeLink {
+  font: 600 16px "Poppins", sans-serif;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.upgradeLink:hover {
+  font: 600 16px "Poppins", sans-serif;
+  color: $white-color;
+  background: $primary-color;
+  border: 2px solid $primary-color;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.References {
+  font: 400 16px "Poppins", sans-serif;
+  text-align: left;
+}

@@ -1,0 +1,50 @@
+@import "../../variables.module.scss";
+.profileContainer {
+  position: relative;
+  padding: 10px;
+  background: $primary-color;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  padding-top: 4.5px;
+  cursor: pointer;
+  border: 2px solid $primary-color;
+}
+.profileContainer:hover {
+  border: 2px solid #003e9b;
+}
+.profileRow {
+  display: block;
+  position: absolute;
+  background: $white-color;
+  visibility: visible;
+  border-radius: 10px;
+}
+.profileRow.close {
+  display: none;
+}
+
+.profileCol {
+  position: relative;
+  visibility: visible;
+  list-style: none;
+  padding: 20px;
+}
+
+.profileCol a {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom-style: none;
+  box-sizing: border-box;
+}
+.profileCol a:hover {
+  color: $secondary-color;
+}

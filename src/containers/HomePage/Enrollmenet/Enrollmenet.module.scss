@@ -1,0 +1,20 @@
+@import "../../../variables.module.scss";
+.containerfluid {
+  position: relative;
+}
+.heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: $primary-color;
+}
+.row {
+  min-height: 500px;
+}
+.EnrollmenetPicture {
+  background-image: url(../../../components/Layout/Images/EnrollementPicture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}

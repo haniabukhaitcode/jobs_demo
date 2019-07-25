@@ -1,0 +1,85 @@
+@import "../../../variables.module.scss";
+.sectionheader {
+  padding: 150px 0px;
+  background-image: linear-gradient(to right bottom, #0c0c354f, #0c0c352f),
+    url(../../../components/Layout/Images/Work-Img.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.section {
+  position: relative;
+  background: #fafafe;
+}
+.customContainer {
+  max-width: 1720px !important;
+}
+.searchHero h2 {
+  color: $white-color;
+  margin-bottom: 15px;
+  font: "Poppins", sans-serif;
+  line-height: 60px;
+  font-size: 40px;
+}
+.searchHero p {
+  margin-bottom: 42px;
+  line-height: 30px;
+  font-size: 18px;
+  color: $white-color;
+}
+
+.searchHero .search {
+  max-width: 630px;
+  margin: 0 auto;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.searchHero .search .searchInput {
+  border: 1px solid #e9ebf4;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0px 30px 30px 0px rgba(0, 11, 40, 0.1);
+  font: 400 15px/46px "Poppins", sans-serif;
+  padding-left: 30px;
+  color: $black-color;
+  z-index: 0;
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.searchHero .search .searchInput:focus {
+  border-color: $primary-color;
+}
+.searchHero .search .searchBtn {
+  position: absolute;
+  right: 8px;
+  background: $primary-color;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 11px 32px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

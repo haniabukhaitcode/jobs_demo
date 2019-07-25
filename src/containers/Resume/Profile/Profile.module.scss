@@ -1,0 +1,49 @@
+@import "../../../variables.module.scss";
+
+.containerProfileGrid {
+  margin-top: 100px;
+  background: #373d48;
+  border-left: 3px solid $primary-color;
+  border-right: 3px solid $primary-color;
+}
+.girdItemPicture {
+  border: none;
+  margin-right: 15px;
+}
+.girdItemNameAddressEmail {
+  color: $white-color;
+  padding-top: 10px;
+  font: 800 12px "Poppins", sans-serif;
+  margin-left: 5px;
+}
+.girdItemBirthNationalityStatus {
+  color: $white-color;
+  padding-top: 10px;
+  font: 800 12px "Poppins", sans-serif;
+  margin-left: -20px;
+}
+
+.pictureIcon {
+  margin-left: -15px;
+  width: 140px;
+}
+
+//  preferred Job start
+.title {
+  font: 800 25px "Poppins", sans-serif;
+  text-align: center;
+}
+.titleProfession {
+  border-left: 2px solid $primary-color;
+  border-right: 2px solid $primary-color;
+  color: $black-color;
+  padding-top: 10px;
+  font: 800 14px "Poppins", sans-serif;
+  background: white;
+}
+.CareerLocation {
+  color: $black-color;
+  padding-top: 10px;
+  font: 800 14px "Poppins", sans-serif;
+  background: white;
+}

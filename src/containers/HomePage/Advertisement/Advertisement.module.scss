@@ -1,0 +1,199 @@
+@import "../../../variables.module.scss";
+.sectionAdvertisementHeading {
+  font: 800 36px "Poppins", sans-serif;
+  color: $primary-color;
+}
+
+.customRow {
+  position: relative;
+}
+.cardsCol {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 10px;
+}
+
+.sectionAdvertisement {
+  text-align: center;
+  border-top: $primary-color 2px solid;
+  background: transparent;
+  font-size: 48px;
+  color: $black-color;
+  background: white;
+}
+.customContainerAdvertisement {
+  background: white;
+  padding-top: 10px;
+}
+.firstHeading {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.advertisementCard {
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 250px;
+  min-height: 250px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  position: relative;
+  background: white;
+  box-shadow: 0px 0px 1px 0px rgba(0, 11, 40, 0.14);
+}
+
+.advertisementCard:hover {
+  border-bottom-right-radius: 10%;
+  box-shadow: 1px 1px 20px 1px rgba(0, 11, 40, 0.14);
+  border-block-end: 1.5px solid $primary-color;
+}
+.advertisementBtn {
+  font: 800 16px "Poppins", sans-serif;
+  color: $primary-color;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  top: -20px;
+}
+.advertisementBtn:hover {
+  text-decoration: none;
+  outline: none;
+  color: $primary-color;
+}
+
+.AdvZain {
+  height: 70px;
+  background-image: url("../../../components/Layout/Images/ZainIcon.png");
+  border-radius: 2px;
+}
+
+.AdvPuma {
+  height: 70px;
+  width: 250px;
+  background-image: url("../../../components/Layout/Images/PumaIcon.png");
+  border-radius: 2px;
+  background-size: cover;
+}
+.AdvUmniah {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvMac {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvEbay {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvBMW {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvToyota {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvNike {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvAddidas {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvNivea {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvApple {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.AdvHp {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.advList {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.abb {
+  height: 10px;
+  background-image: linear-gradient(to right bottom, #0e0e5f, #0e0e5f85);
+  background-size: cover;
+  background-position: bottom;
+  clip-path: polygon(0 0, 100% 10px, 0 100%);
+}
+
+// Footer Section
+.sectionFooter {
+  background: $primary-color;
+  color: $white-color;
+}
+
+.footerContainer {
+  font: 500 16px "Poppins", sans-serif;
+  color: $white-color;
+  padding: 0px;
+  margin-bottom: 5px;
+  padding-block-start: 10px;
+  height: 40px;
+  width: 110px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: right;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-top: -10px;
+  list-style: none;
+  flex-grow: 1;
+}
+.footerItem {
+  position: relative;
+}
+
+.footerList > .footerItem > .footerLink {
+  font: 400 14px "Poppins", sans-serif;
+  color: $white-color;
+  width: 150px;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerList > .footerItem > .footerLink:hover {
+  color: $white-color;
+}
+.footerList > .footerItem:hover .footerLink:before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.footerList > .footerItem > .footerLink:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: $white-color;
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  transition: all 0.3s linear;
+}
+
+.followUs {
+  color: white;
+}
+.followUs:hover {
+  color: white;
+}
