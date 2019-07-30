@@ -19,10 +19,13 @@
 }
 .profileRow {
   display: block;
-  position: absolute;
-  background: $white-color;
+  position: relative;
+  background: #fff;
+  min-width: 140px;
+  left: -100px;
   visibility: visible;
   border-radius: 10px;
+  z-index: 1;
 }
 .profileRow.close {
   display: none;

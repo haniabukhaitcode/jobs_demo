@@ -8,7 +8,7 @@ const Notification = ({ showNotification, openNotification }) => {
   //true
   if (showNotification) {
     //false
-    notificationClasses = `${Styles.notificationRow} ${Styles.close}`;
+    notificationClasses = `${Styles.notificationRow} container ${Styles.close}`;
   }
 
   return (

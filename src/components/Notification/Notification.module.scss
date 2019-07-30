@@ -14,12 +14,13 @@
 
 .notificationRow {
   display: block;
-  position: absolute;
-  background: $white-color;
+  position: relative;
+  background: #fff;
+  min-width: 200px;
+  left: -100px;
   visibility: visible;
   border-radius: 10px;
   z-index: 1;
-  width: 280px;
 }
 
 .notificationRow.close {
