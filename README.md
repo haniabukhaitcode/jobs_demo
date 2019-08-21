@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-https://jobs-landing.netlify.com/login
-## Available Scripts
 
+## Available Scripts
+https://jobs-landing.netlify.com/login
 In the project directory, you can run:
 
 ### `npm start`
